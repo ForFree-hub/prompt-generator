@@ -1,0 +1,32 @@
+
+---
+
+**Step 2: Deploy to Render**
+
+1. Go to [render.com](https://render.com) → Sign in with GitHub
+2. Click **"New Web Service"**
+3. Search for your repo: `prompt-generator`
+4. Click **"Connect"**
+5. Configure:
+   - **Name:** `prompt-generator` (or whatever you want)
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `python app.py`
+6. Scroll down, click **"Create Web Service"**
+
+---
+
+**Step 3: Wait for Deploy**
+
+- It will install packages and start your app
+- Takes about 1-2 minutes ⏳
+- When done, you'll see a **"Your service is live"** message 🎉
+
+---
+
+**Step 4: Visit Your Live App!**
+
+Click the URL Render gives you (something like `https://prompt-generator.onrender.com`)
+
+---
+
+**Done!** Let me know if you get any errors during deployment and I'll help you fix them! 🚀
