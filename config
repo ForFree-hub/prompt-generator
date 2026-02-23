@@ -1,0 +1,22 @@
+"""
+Configuration settings for Prompt Generator AI Agent
+"""
+
+import os
+from dataclasses import dataclass
+from typing import List, Optional
+
+
+@dataclass
+class AppConfig:
+    """Application configuration class"""
+    
+    # Application Settings
+    app_name: str = "PromptGen Pro"
+    app_version: str = "1.0.0"
+    debug_mode: bool = False
+    
+    # API Configuration
+    openai_api_key: Optional[str] = None
+    anthropic_api_key: Optional[str] = None
+    default_model: str = "gpt-4"
